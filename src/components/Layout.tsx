@@ -10,38 +10,39 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFullscreen
-                logo="Joe's Coffee"
+                logo="Grand Slam Club"
                 navItems={[
-                  { name: "Menu", href: "#menu" },
-                  { name: "Find Us", href: "#locations" },
+                  { name: "Facilities", href: "#menu" },
+                  { name: "Membership", href: "#membership" },
+                  { name: "Bookings", href: "#bookings" },
                 ]}
-                ctaButton={{ text: "Order Now", href: "#order" }}
+                ctaButton={{ text: "Join Now", href: "#membership" }}
               />
       <main className="flex-grow">
         <Outlet />
       </main>
       <FooterBrand
-                brand="Joe's Coffee"
+                brand="Grand Slam Club"
                 columns={[
                   {
                     items: [
-                      { label: "Menu", href: "#menu" },
-                      { label: "Hot Drinks", href: "#menu" },
-                      { label: "Pastries", href: "#menu" },
+                      { label: "Facilities", href: "#menu" },
+                      { label: "Courts", href: "#menu" },
+                      { label: "Coaching", href: "#menu" },
                     ],
                   },
                   {
                     items: [
-                      { label: "Find Us", href: "#locations" },
-                      { label: "Hours", href: "#locations" },
-                      { label: "About", href: "#about" },
+                      { label: "Membership", href: "#membership" },
+                      { label: "Bookings", href: "#bookings" },
+                      { label: "Events", href: "#features" },
                     ],
                   },
                   {
                     items: [
                       { label: "Contact", href: "#contact" },
-                      { label: "Careers", href: "#careers" },
-                      { label: "Gift Cards", href: "#gift-cards" },
+                      { label: "Pro Shop", href: "#shop" },
+                      { label: "Rules", href: "#rules" },
                     ],
                   },
                 ]}
