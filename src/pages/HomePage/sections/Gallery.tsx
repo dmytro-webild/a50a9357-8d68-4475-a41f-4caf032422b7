@@ -23,7 +23,7 @@ export default function GallerySection() {
     },
     {
       src: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951920221-rb0wtby4.jpg",
-      title: "Clay Courts",
+      title: "Courts",
       colSpan: "md:col-span-2"
     },
     {
