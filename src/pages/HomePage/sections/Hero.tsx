@@ -87,7 +87,7 @@ const HeroInline = () => {
 
       <div className="flex flex-col gap-10 md:gap-12 w-content-width mx-auto">
         <div className="flex flex-col items-end gap-5">
-          <AutoFillText className="w-full font-semibold" paddingY="">{"Grand Slam Club"}</AutoFillText>
+          <AutoFillText className="w-full font-semibold" paddingY="Clay Courts">{"Grand Slam Club"}</AutoFillText>
 
           <TextAnimation
             text={"Experience world-class tennis facilities, professional coaching, and a vibrant community. Whether you're a beginner or a seasoned pro, our courts are ready for you."}
