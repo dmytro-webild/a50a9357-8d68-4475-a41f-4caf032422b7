@@ -13,7 +13,7 @@ export default function FeaturesSection(): React.JSX.Element {
         title="Get Involved in the Community"
         description="From casual social mixers to competitive club championships, there's always something happening at the club."
         topItems={[{"imageSrc":"https://images.unsplash.com/photo-1530915534664-4ac6423816b7?q=80&w=1000&auto=format&fit=crop","description":"Compete in our annual club championships across various age groups and skill levels. A great way to challenge yourself and meet other members.","title":"Annual Championships"},{"imageSrc":"https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1000&auto=format&fit=crop","description":"Join us for our monthly social mixers. Enjoy casual round-robin play followed by drinks and appetizers in the clubhouse.","title":"Social Mixers"}]}
-        bottomItem={{"primaryButton":{"text":"Join a League","href":"#leagues"},"imageSrc":"https://images.unsplash.com/photo-1589806053641-6101469b1110?q=80&w=1000&auto=format&fit=crop","description":"Join our competitive leagues and test your skills against players of similar levels. We offer singles, doubles, and mixed leagues year-round.","title":"Club Leagues"}}
+        bottomItem={{"primaryButton":{"text":"Join a League","href":"#leagues"},"imageSrc":"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951363731-ti1gwsue.jpg","description":"Join our competitive leagues and test your skills against players of similar levels. We offer singles, doubles, and mixed leagues year-round.","title":"Club Leagues"}}
       />
             </div>
   );
