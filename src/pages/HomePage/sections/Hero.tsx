@@ -21,7 +21,7 @@ const secondaryButton = {
 const floatingCards = [
   {
     name: "Courts",
-    imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951920221-rb0wtby4.jpg"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952650576-fsoubb3r.jpg"
   },
   {
     name: "Grass Courts",
