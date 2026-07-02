@@ -16,7 +16,8 @@ import ContactSection from './HomePage/sections/Contact';
 
 
 import MembershipSection from './HomePage/sections/Membership';
-import BookingsSection from './HomePage/sections/Bookings';export default function HomePage(): React.JSX.Element {
+import BookingsSection from './HomePage/sections/Bookings';
+import GallerySection from './HomePage/sections/Gallery';export default function HomePage(): React.JSX.Element {
   return (
 <StyleProvider siteBackground="aurora" heroBackground="none" buttonVariant="bounce">
         <SiteBackgroundSlot />
@@ -32,6 +33,7 @@ import BookingsSection from './HomePage/sections/Bookings';export default functi
         <MenuSection />
 
         <FeaturesSection />
+      <GallerySection />
 
         <ContactSection />
 
