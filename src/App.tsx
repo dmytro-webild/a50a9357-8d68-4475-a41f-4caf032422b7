@@ -55,7 +55,7 @@ function reportRenderStatus(payload: RenderStatusPayload) {
 function probeRenderState() {
   if (typeof document === 'undefined') return
   const root = document.getElementById('root')
-  const text = (document.body?.innerText || 'Clay Courts').trim()
+  const text = (document.body?.innerText || '').trim()
   if (!root || root.children.length === 0) {
     reportRenderStatus({
       ok: false,
@@ -94,8 +94,8 @@ if (typeof window !== 'undefined' && window.parent !== window && !window.__webil
       ok: false,
       reason: 'window_error',
       error: String(e?.message || (e as ErrorEvent)?.error?.message || 'unknown'),
-      stack: String((e as ErrorEvent)?.error?.stack || 'Clay Courts').slice(0, 4000),
-      filename: String((e as ErrorEvent)?.filename || 'Clay Courts'),
+      stack: String((e as ErrorEvent)?.error?.stack || '').slice(0, 4000),
+      filename: String((e as ErrorEvent)?.filename || ''),
       lineno: (e as ErrorEvent)?.lineno,
       colno: (e as ErrorEvent)?.colno,
     })
@@ -106,7 +106,7 @@ if (typeof window !== 'undefined' && window.parent !== window && !window.__webil
       ok: false,
       reason: 'unhandled_rejection',
       error: String(reason?.message || reason || 'unknown'),
-      stack: String(reason?.stack || 'Clay Courts').slice(0, 4000),
+      stack: String(reason?.stack || '').slice(0, 4000),
     })
   })
   if (import.meta.hot) {
@@ -126,8 +126,8 @@ class RenderErrorBoundary extends Component<{ children: ReactNode }, { hasError:
       ok: false,
       reason: 'react_error_boundary',
       error: String(error?.message || error || 'unknown'),
-      stack: String(error?.stack || 'Clay Courts').slice(0, 4000),
-      componentStack: String(info?.componentStack || 'Clay Courts').slice(0, 4000),
+      stack: String(error?.stack || '').slice(0, 4000),
+      componentStack: String(info?.componentStack || '').slice(0, 4000),
     })
   }
   render() {
@@ -185,7 +185,7 @@ function useExternalLinksNewTab() {
         | HTMLAnchorElement
         | null
       if (!anchor || anchor.target === '_blank') return
-      const raw = anchor.getAttribute('href') || 'Clay Courts'
+      const raw = anchor.getAttribute('href') || ''
       if (!/^(https?:)?\/\//i.test(raw)) return
       try {
         const url = new URL(anchor.href, window.location.href)
