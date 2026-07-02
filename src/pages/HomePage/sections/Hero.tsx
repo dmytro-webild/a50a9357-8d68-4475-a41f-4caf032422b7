@@ -14,7 +14,7 @@ export default function HeroSection(): React.JSX.Element {
         primaryButton={{"href":"#book","text":"Book a Court"}}
         secondaryButton={{"text":"Join the Club","href":"#membership"}}
         videoSrc="https://storage.googleapis.com/webild/default/templates/tennis/hero.mp4"
-        floatingCards={[{"name":"Clay Courts","imageSrc":"https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=1000&auto=format&fit=crop"},{"name":"Grass Courts","imageSrc":"https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=1000&auto=format&fit=crop"}]}
+        floatingCards={[{"name":"Clay Courts","imageSrc":"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952546030-f2ubckey.jpg"},{"name":"Grass Courts","imageSrc":"https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=1000&auto=format&fit=crop"}]}
       />
             </div>
   );
