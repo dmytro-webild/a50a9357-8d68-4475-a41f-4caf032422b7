@@ -8,7 +8,7 @@ export default function GallerySection() {
   const images = [
     {
       src: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951920218-dn9n7n03.png",
-      title: "Private Lessons Private Lessons Private Lessons",
+      title: "Private Lessons",
       colSpan: "md:col-span-3"
     },
     {
