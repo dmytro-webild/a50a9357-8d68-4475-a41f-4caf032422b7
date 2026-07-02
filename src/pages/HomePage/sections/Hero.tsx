@@ -25,7 +25,7 @@ const floatingCards = [
   },
   {
     name: "Grass Courts",
-    imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952546030-f2ubckey.jpg"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952546030-f2ubckey.jpg?_wi=2"
   }
 ];
 
