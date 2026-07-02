@@ -13,7 +13,7 @@ export default function HeroSection(): React.JSX.Element {
         description="Experience world-class tennis facilities, professional coaching, and a vibrant community. Whether you're a beginner or a seasoned pro, our courts are ready for you."
         primaryButton={{"href":"#book","text":"Book a Court"}}
         secondaryButton={{"text":"Join the Club","href":"#membership"}}
-        videoSrc="https://storage.googleapis.com/webild/default/templates/tennis/hero.mp4"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952650576-fsoubb3r.jpg"
         floatingCards={[{"name":"Clay Courts","imageSrc":"https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=1000&auto=format&fit=crop"},{"name":"Grass Courts","imageSrc":"https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=1000&auto=format&fit=crop"}]}
       />
             </div>
