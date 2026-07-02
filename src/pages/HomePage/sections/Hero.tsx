@@ -14,7 +14,7 @@ export default function HeroSection(): React.JSX.Element {
         primaryButton={{"href":"#book","text":"Book a Court"}}
         secondaryButton={{"text":"Join the Club","href":"#membership"}}
         imageSrc="https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952650576-fsoubb3r.jpg"
-        floatingCards={[{"name":"Clay Courts","imageSrc":"https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=1000&auto=format&fit=crop"},{"name":"Grass Courts","imageSrc":"https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=1000&auto=format&fit=crop"}]}
+        floatingCards={[{"name":"Clay Courts","imageSrc":"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951920218-dn9n7n03.png"},{"name":"Grass Courts","imageSrc":"https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=1000&auto=format&fit=crop"}]}
       />
             </div>
   );
