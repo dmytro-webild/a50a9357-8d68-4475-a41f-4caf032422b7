@@ -24,7 +24,7 @@ export default function BookingsSection() {
       title: "Secure Your Time",
       subtitle: "Step 3",
       description: "Confirm your booking and receive an email confirmation with your court details.",
-      imageSrc: "https://images.unsplash.com/photo-1589806053641-6101469b1110?q=80&w=1000&auto=format&fit=crop",
+      imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951363731-ti1gwsue.jpg",
     },
   ];
 
