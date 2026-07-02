@@ -10,7 +10,7 @@ export default function BookingsSection() {
       title: "Access Your Account",
       subtitle: "Step 1",
       description: "Log in to your member portal using your credentials.",
-      imageSrc: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=1000&auto=format&fit=crop",
+      imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782951920218-dn9n7n03.png",
     },
     {
       tag: "Select",
