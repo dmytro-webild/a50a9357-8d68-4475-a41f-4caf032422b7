@@ -17,7 +17,7 @@ export default function BookingsSection() {
       title: "Choose Your Court",
       subtitle: "Step 2",
       description: "Browse available courts and times up to 7 days in advance (14 days for Pro members).",
-      imageSrc: "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=1000&auto=format&fit=crop",
+      imageSrc: "https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1782952546030-f2ubckey.jpg",
     },
     {
       tag: "Confirm",
